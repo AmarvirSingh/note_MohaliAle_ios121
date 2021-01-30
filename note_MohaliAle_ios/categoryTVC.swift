@@ -11,8 +11,14 @@ import UIKit
 class categoryTVC: UITableViewController {
 
     
-
+ 
+    // creating arrary of Category type
+    var category = [Cat]()
         
+    // creating context of core data
+    var context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -21,6 +27,8 @@ class categoryTVC: UITableViewController {
 
     @IBAction func addCategoryPressed(_ sender: UIBarButtonItem) {
     }
+    
+    
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
