@@ -16,6 +16,7 @@
 		EE54C83125C4C61400953AD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE54C82F25C4C61400953AD8 /* LaunchScreen.storyboard */; };
 		EE54C83C25C4C61400953AD8 /* note_MohaliAle_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54C83B25C4C61400953AD8 /* note_MohaliAle_iosTests.swift */; };
 		EE54C84725C4C61400953AD8 /* note_MohaliAle_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54C84625C4C61400953AD8 /* note_MohaliAle_iosUITests.swift */; };
+		EEE4952325C5A8B500DA2424 /* categoryTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE4952225C5A8B500DA2424 /* categoryTVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		EE54C84225C4C61400953AD8 /* note_MohaliAle_iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = note_MohaliAle_iosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE54C84625C4C61400953AD8 /* note_MohaliAle_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = note_MohaliAle_iosUITests.swift; sourceTree = "<group>"; };
 		EE54C84825C4C61400953AD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEE4952225C5A8B500DA2424 /* categoryTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = categoryTVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				EE54C82325C4C60E00953AD8 /* SceneDelegate.swift */,
 				EE54C82525C4C60E00953AD8 /* ViewController.swift */,
 				EE54C82725C4C60E00953AD8 /* Main.storyboard */,
+				EEE4952225C5A8B500DA2424 /* categoryTVC.swift */,
 				EE54C82D25C4C61400953AD8 /* Assets.xcassets */,
 				EE54C82F25C4C61400953AD8 /* LaunchScreen.storyboard */,
 				EE54C83225C4C61400953AD8 /* Info.plist */,
@@ -264,6 +267,7 @@
 			files = (
 				EE54C82625C4C60E00953AD8 /* ViewController.swift in Sources */,
 				EE54C82225C4C60E00953AD8 /* AppDelegate.swift in Sources */,
+				EEE4952325C5A8B500DA2424 /* categoryTVC.swift in Sources */,
 				EE54C82C25C4C60E00953AD8 /* note_MohaliAle_ios.xcdatamodeld in Sources */,
 				EE54C82425C4C60E00953AD8 /* SceneDelegate.swift in Sources */,
 			);
