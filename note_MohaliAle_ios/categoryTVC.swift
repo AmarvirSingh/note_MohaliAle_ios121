@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CoreData
 
 class categoryTVC: UITableViewController {
 
@@ -21,10 +22,23 @@ class categoryTVC: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        // load Category func
+        loadCategory()
        
     }
 
+    // load category
+    func loadCategory(){
+        // requesting data
+        let request : NSFetchRequest<Cat> = Cat.fetchRequest()
+        
+        do{
+            category = try context.fetch(request)
+        }catch{
+            print("Cannot load Categories \(error.localizedDescription)")
+        }
+    }
+    
     @IBAction func addCategoryPressed(_ sender: UIBarButtonItem) {
     }
     
